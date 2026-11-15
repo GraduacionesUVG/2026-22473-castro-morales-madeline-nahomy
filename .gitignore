@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Variables de entorno (el .env real NUNCA se sube)
+.env
+.env.local
+src/.env
+
+# IDE / editores
+.vscode/
+.idea/
+*.swp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Caché y temporales
+*.log
+.cache/
+dist/
+build/
+
+# Plantilla del consentimiento sin firmar (solo referencia local)
+consentimiento-plantilla-SIN-FIRMAR.pdf
