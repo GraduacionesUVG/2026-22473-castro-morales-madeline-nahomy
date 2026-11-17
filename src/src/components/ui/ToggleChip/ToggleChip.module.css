@@ -1,0 +1,61 @@
+/** Estilos de el chip seleccionable. */
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 1.5px solid var(--color-secondary-light);
+  border-radius: var(--radius-full);
+  font-family: var(--font-family);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-secondary);
+  background-color: var(--color-surface);
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+}
+
+.chip:hover:not(:disabled) {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.chip:focus-visible {
+  outline: 3px solid var(--color-primary-light);
+  outline-offset: 2px;
+}
+
+.selected {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.selected:hover:not(:disabled) {
+  background-color: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+  color: var(--color-white);
+}
+
+.chip:disabled {
+  background-color: var(--color-readonly-bg);
+  border-color: var(--color-secondary-light);
+  cursor: not-allowed;
+}
+
+.selected:disabled {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.label {
+  line-height: 1;
+}

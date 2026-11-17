@@ -1,0 +1,38 @@
+/** Estilos de el aviso informativo en línea. */
+
+.notice {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  border: 1.5px solid transparent;
+  font-family: var(--font-family);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.info {
+  border-color: var(--color-2);
+  background: var(--color-1);
+  color: var(--color-primary);
+}
+
+.warning {
+  border-color: var(--color-warning);
+  background: var(--color-bg-warning);
+  color: var(--color-chip-warning);
+}
+
+.danger {
+  border-color: var(--color-destructive);
+  background: var(--color-bg-danger);
+  color: var(--color-destructive);
+}
+
+.icon {
+  flex-shrink: 0;
+  margin-top: 1px;
+}

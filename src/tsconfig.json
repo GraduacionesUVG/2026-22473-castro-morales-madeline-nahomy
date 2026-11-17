@@ -1,0 +1,8 @@
+// Configuración raíz de TypeScript que referencia los proyectos de la app y de las herramientas.
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
