@@ -1,0 +1,66 @@
+/** Estilos de el contenedor de pantalla completa con la marca CONGENIA. */
+
+.background {
+    position: fixed;
+    inset: 0;
+    overflow-y: auto;
+    background: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+}
+
+.topBarSlot {
+    flex-shrink: 0;
+}
+
+.main {
+    flex: 1 0 auto;
+    display: flex;
+    padding: 24px 16px;
+}
+
+.centered {
+    margin: auto;
+    width: 100%;
+    max-width: 448px;
+}
+
+.split {
+    margin: auto;
+    width: 100%;
+    max-width: 480px;
+    display: grid;
+    gap: 24px;
+}
+
+.card {
+    width: 100%;
+    background: var(--color-surface);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.18);
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: auto;
+    height: 64px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+@media (min-width: 900px) {
+    .main {
+        padding: 40px 24px;
+    }
+
+    .split {
+        max-width: 1040px;
+        grid-template-columns: 1fr minmax(360px, 448px);
+        align-items: center;
+        gap: 64px;
+    }
+}

@@ -1,0 +1,4 @@
+# Configuración de pnpm: paquetes a los que no se les permite ejecutar scripts de instalación.
+allowBuilds:
+  core-js: false
+  esbuild: false

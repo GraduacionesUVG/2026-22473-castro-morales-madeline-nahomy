@@ -1,0 +1,23 @@
+/** Estilos de el diálogo de confirmación de acciones destructivas. */
+
+.overlay {
+  z-index: 120;
+}
+
+.title {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.message {
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+  color: var(--color-black);
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}

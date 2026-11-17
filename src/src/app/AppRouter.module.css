@@ -1,0 +1,7 @@
+/** Estilos de el enrutador principal de la aplicación. */
+
+.fichaShell {
+    max-width: 480px;
+    margin: 0 auto;
+    min-height: 100dvh;
+}

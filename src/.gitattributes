@@ -1,0 +1,2 @@
+# Fuerza finales de línea LF en los scripts de shell que se ejecutan dentro del contenedor.
+*.sh text eol=lf

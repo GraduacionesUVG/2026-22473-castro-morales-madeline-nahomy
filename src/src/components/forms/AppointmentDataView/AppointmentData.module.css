@@ -1,0 +1,20 @@
+/** Estilos de la sección Datos de la Consulta de la ficha clínica. */
+
+.card {
+    border: 1.5px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    overflow: clip;
+    background: var(--color-surface);
+}
+
+.cardIncomplete {
+    border-color: var(--color-destructive);
+}
+
+.body {
+    border-top: 1.5px solid var(--color-border);
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
